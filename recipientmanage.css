@@ -1,0 +1,145 @@
+/* Reset and Fonts */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .header h1 {
+    color: #800000;
+    font-size: 2rem;
+  }
+  
+  .header p {
+    color: #555;
+  }
+  
+  /* Search Section */
+  .search-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  }
+  
+  .search-section h2 {
+    color: #800000;
+    margin-bottom: 20px;
+  }
+  
+  .search-group {
+    margin-bottom: 15px;
+  }
+  
+  .search-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .search-group input,
+  .search-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-btn {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+  }
+  
+  .search-btn:hover {
+    background-color: #5c0a0a;
+  }
+  
+  /* Recipient List */
+  .recipient-list {
+    margin-top: 40px;
+  }
+  
+  .recipient-list h2 {
+    color: #800000;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #800000;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Buttons */
+  .edit-btn,
+  .delete-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .edit-btn {
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .edit-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c0392b;
+  }
