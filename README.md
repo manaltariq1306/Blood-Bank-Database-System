@@ -52,7 +52,7 @@ data integrity and relationships.
 4. Import the SQL file located in the `database` folder
 5. Update database credentials in `db.php` if required
 6. Open the browser and run:
-
+http://localhost/blood-bank-management-system
 
 ## Project Structure Note
 This project is dependent on its file and folder structure.  
@@ -64,6 +64,3 @@ Please do not rename or move files, as it may affect functionality.
 
 ## Author
 Manal Tariq
-
-5. Update database credentials in `db.php` if required
-6. Open the browser and run:
